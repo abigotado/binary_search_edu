@@ -2,7 +2,7 @@ package org.abigotado.arrays;
 
 import java.util.Comparator;
 
-final public class Arrays {
+final public class AbiArrays {
     public static int binarySearch(byte[] a, byte key) {
         return binarySearch(a, 0, a.length, key);
     }
