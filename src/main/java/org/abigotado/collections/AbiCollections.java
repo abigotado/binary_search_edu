@@ -3,7 +3,7 @@ package org.abigotado.collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Collections {
+public class AbiCollections {
 
     // Binary search for list without comparator
     public static <T extends Comparable<? super T>> int binarySearch(List<T> list, T key) {
